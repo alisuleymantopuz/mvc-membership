@@ -1,0 +1,27 @@
+﻿@model NorthwindMembershipApp.UI.Web.Models.Account.LoginViewModel
+@{
+    ViewBag.Title = "Login";
+}
+@using (Html.BeginForm())
+{
+    if (HttpContext.Current.User.Identity.IsAuthenticated)
+    {
+    @Html.ActionLink("Logout", "Logout")
+    }
+    else
+    {
+    <h2>Login..</h2>
+
+    @Html.AntiForgeryToken();    
+    <div>
+        @Html.TextBoxFor(x => x.Email, new { placeholder = Html.DisplayNameFor(x => x.Email) })
+        @Html.PasswordFor(x => x.Password, new { placeholder = Html.DisplayNameFor(x => x.Password) })
+    </div>
+    <div>
+        @Html.ValidationSummary()
+    </div>
+    <div>
+        <input type="submit" value="Login" />
+    </div>
+    }
+}

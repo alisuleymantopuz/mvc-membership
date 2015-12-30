@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NorthwindMembershipApp.UI.Web", "NorthwindMembershipApp.UI.Web\NorthwindMembershipApp.UI.Web.csproj", "{0C7F000A-02A3-4524-847C-B76DD0CF3A7B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NorthwindMembershipApp.UI.Web.Tests", "NorthwindMembershipApp.UI.Web.Tests\NorthwindMembershipApp.UI.Web.Tests.csproj", "{1BEFC3C9-4BAE-4FC9-924C-F8527C5E6EA7}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 3
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://developmentastpz.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = NorthwindMembershipApp.UI.Web.Tests\\NorthwindMembershipApp.UI.Web.Tests.csproj
+		SccProjectName1 = NorthwindMembershipApp.UI.Web.Tests
+		SccLocalPath1 = NorthwindMembershipApp.UI.Web.Tests
+		SccProjectUniqueName2 = NorthwindMembershipApp.UI.Web\\NorthwindMembershipApp.UI.Web.csproj
+		SccProjectName2 = NorthwindMembershipApp.UI.Web
+		SccLocalPath2 = NorthwindMembershipApp.UI.Web
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0C7F000A-02A3-4524-847C-B76DD0CF3A7B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C7F000A-02A3-4524-847C-B76DD0CF3A7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C7F000A-02A3-4524-847C-B76DD0CF3A7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C7F000A-02A3-4524-847C-B76DD0CF3A7B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1BEFC3C9-4BAE-4FC9-924C-F8527C5E6EA7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1BEFC3C9-4BAE-4FC9-924C-F8527C5E6EA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1BEFC3C9-4BAE-4FC9-924C-F8527C5E6EA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1BEFC3C9-4BAE-4FC9-924C-F8527C5E6EA7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
